@@ -302,8 +302,8 @@
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>demo</name>
-	        <url>http://13.201.39.34:8081/repository/demo//</url>
+	        <name>Test-repo</name>
+	        <url>http://13.234.202.165:8081/repository/Test-repo/</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
