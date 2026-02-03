@@ -297,8 +297,8 @@
     <distributionManagement>
 	    <repository>
 	        <id>nexus</id>
-	        <name>demo-release</name>
-	        <url>http://13.201.39.34:8081/repository/demo-release//</url>
+	        <name>Temp-repo-release</name>
+	        <url>http://13.234.202.165:8081/repository/Temp-repo-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
