@@ -298,12 +298,12 @@
 	    <repository>
 	        <id>nexus</id>
 	        <name>Temp-repo-release</name>
-	        <url>http://13.232.112.165/:8081/repository/Temp-repo-release/</url>
+	        <url>http://13.232.112.165:8081/repository/Temp-repo-release/</url>
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
 	        <name>Test-repo</name>
-	        <url>http://13.232.112.165/:8081/repository/Test-repo/</url>
+	        <url>http://13.232.112.165:8081/repository/Test-repo/</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
