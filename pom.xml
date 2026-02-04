@@ -302,7 +302,7 @@
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>test-proxy-repo</name>
+	        <name>nexus</name>
 	        <url>http://13.232.112.165:8081/repository/test-proxy-repo/</url>
 	    </snapshotRepository>
     </distributionManagement>
