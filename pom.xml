@@ -302,8 +302,8 @@
 	    </repository>
 	    <snapshotRepository>
 	        <id>nexus</id>
-	        <name>Test-repo</name>
-	        <url>http://13.232.112.165:8081/repository/Test-repo/</url>
+	        <name>test-proxy-repo</name>
+	        <url>http://13.232.112.165:8081/repository/test-proxy-repo/</url>
 	    </snapshotRepository>
     </distributionManagement>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
