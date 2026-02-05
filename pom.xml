@@ -559,7 +559,11 @@
                 </dependency>
             </dependencies>
         </profile>
-		<repositories>
+	   </profiles>
+
+  <repositories>
+
+    <!-- Nexus proxy repository -->
     <repository>
         <id>nexus</id>
         <name>Credence-proxy-repo</name>
@@ -571,15 +575,15 @@
             <enabled>true</enabled>
         </snapshots>
     </repository>
-</repositories>
-   </profiles>
 
-    <repositories>
-        <repository>
-            <id>repository.spring.milestone</id>
-            <name>Spring Milestone Repository</name>
-            <url>https://repo.spring.io/milestone</url>
-        </repository>
-    </repositories>
+    <!-- Spring milestone repo (already used by this project) -->
+    <repository>
+        <id>repository.spring.milestone</id>
+        <name>Spring Milestone Repository</name>
+        <url>https://repo.spring.io/milestone</url>
+    </repository>
+
+</repositories>
+
 
 </project>
