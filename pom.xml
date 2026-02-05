@@ -453,18 +453,6 @@
                     </dependency>
                 </dependencies>
 				<repositories>
-    <repository>
-        <id>nexus</id>
-        <name>Credence-proxy-repo</name>
-        <url>http://43.205.117.84:8081/repository/Credence-proxy-repo/</url>
-        <releases>
-            <enabled>true</enabled>
-        </releases>
-        <snapshots>
-            <enabled>true</enabled>
-        </snapshots>
-    </repository>
-</repositories>
             </plugin>
 
             <plugin>
