@@ -306,11 +306,6 @@
 	        <url>http://43.205.117.84:8081/repository/Test-repo/</url>
 	    </snapshotRepository>
     </distributionManagement>
-	</repository>
-	     <id>nexus</id>
-	     <name>Credence-proxy-repo</name>
-	     <url>http://43.205.117.84:8081/repository/Credence-proxy-repo/</url>
-	</repository>
     <!-- Maven plugin versions are mentioned in order to guarantee the build reproducibility in the long term -->
     <build>
         <defaultGoal>install</defaultGoal>
@@ -457,6 +452,19 @@
                         <version>${mockito.version}</version>
                     </dependency>
                 </dependencies>
+				<repositories>
+    <repository>
+        <id>nexus</id>
+        <name>Credence-proxy-repo</name>
+        <url>http://43.205.117.84:8081/repository/Credence-proxy-repo/</url>
+        <releases>
+            <enabled>true</enabled>
+        </releases>
+        <snapshots>
+            <enabled>true</enabled>
+        </snapshots>
+    </repository>
+</repositories>
             </plugin>
 
             <plugin>
